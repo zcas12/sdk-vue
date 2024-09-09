@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    background: #fa2828;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+#payment-button{
+    width: 200px;
+    transition: background 0.2s ease;
+}
+#payment-button:hover{
+    background: #EF3340;
+}
+#home-btn{
+    width: 120px;
+    margin-top: 10px;
+}
+#reg-button{
+    width: 200px;
+    transition: background 0.2s ease;
+}
+input[type=checkbox], input[type=radio] {
+    accent-color: #EF3340;
+    cursor: pointer;
+}
+li > label{
+    cursor: pointer;
+    font-size: 14px;
+}
+.result-wrapper{
+
+}
